@@ -22,5 +22,17 @@
     "color": "#9333EA",
     "releaseDate": "2026-04-02",
     "status": "released"
+  },
+  {
+    "id": "corporate-casanova-vibe",
+    "title": "The Corporate Casanova 昭和烈伝",
+    "subtitle": "昭和フィクサー・シミュレーター",
+    "description": "数々の美女と財界の重鎮に見守られ、昭和から令和へと至る激動の時代を最前線で駆け抜けろ。伝説のフィクサーとなる放置ゲーム。",
+    "tags": ["シミュレーション", "放置ゲーム", "昭和", "フィクサー", "CEO"],
+    "url": "https://corporate-casanova-vibe.vercel.app",
+    "thumbnail": "/thumbnails/corporate-casanova-vibe.webp",
+    "color": "#ec4899",
+    "releaseDate": "2026-04-02",
+    "status": "released"
   }
 ]
