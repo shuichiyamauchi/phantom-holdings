@@ -10,5 +10,17 @@
     "color": "#3B82F6",
     "releaseDate": "2026-03-31",
     "status": "released"
+  },
+  {
+    "id": "the-masked-creator",
+    "title": "The Masked Creator",
+    "subtitle": "仮面転生 - 異世界放置シミュレーター",
+    "description": "仮面の創造神として、全てが大成功し続ける異世界を放置で支配せよ。圧倒的な全能感を味わう放置系・異世界転生シミュレーター。",
+    "tags": ["異世界", "転生", "放置ゲーム", "シミュレーション", "チート"],
+    "url": "https://the-masked-creator.vercel.app",
+    "thumbnail": "/thumbnails/the-masked-creator.webp",
+    "color": "#9333EA",
+    "releaseDate": "2026-04-02",
+    "status": "released"
   }
 ]
