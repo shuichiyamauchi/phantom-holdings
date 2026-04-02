@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>upB systems — ゲーム & アプリ ポータル</title>
+    <meta name="description" content="upB systems が制作するゲーム＆アプリの公式ポータルサイト。最新作やリリース情報をチェック。" />
+    <meta name="keywords" content="upB systems, ゲーム, アプリ, インディーゲーム, シミュレーション" />
+    <meta property="og:title" content="upB systems — Game & App Portal" />
+    <meta property="og:description" content="upB systems が制作するゲーム＆アプリの公式ポータルサイト。" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <!-- Particle Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Header -->
+    <header id="site-header">
+      <div class="header-inner">
+        <a href="/" class="logo" id="logo">
+          <span class="logo-icon">▲</span>
+          <span class="logo-text">upB<span class="logo-accent"> systems</span></span>
+        </a>
+        <nav class="header-nav">
+          <a href="#games" class="nav-link" id="nav-games">Games</a>
+          <a href="#about" class="nav-link" id="nav-about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-badge">GAME & APP PORTAL</div>
+        <h1 class="hero-title">
+          <span class="hero-title-line">Play.</span>
+          <span class="hero-title-line">Experience.</span>
+          <span class="hero-title-line hero-title-accent">Explore.</span>
+        </h1>
+        <p class="hero-description">
+          upB systems が制作するゲーム・アプリを一覧で紹介。<br />
+          新しい体験を見つけてください。
+        </p>
+        <a href="#games" class="hero-cta" id="hero-cta">
+          <span>ゲーム一覧を見る</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M8 13l4-4M8 13L4 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <!-- Games Grid -->
+    <section id="games">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="section-title">Games & Apps</h2>
+          <p class="section-subtitle">制作プロダクト一覧</p>
+        </div>
+        <div id="filter-bar" class="filter-bar">
+          <!-- Filters populated by JS -->
+        </div>
+        <div id="games-grid" class="games-grid">
+          <!-- Cards populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="section-inner about-inner">
+        <div class="about-card">
+          <h2 class="about-title">About upB systems</h2>
+          <p class="about-text">
+            ゲーム・Webアプリ・ツールなど、多種多様なプロダクトを制作・公開しています。<br />
+            新しいアイデアをカタチにし、誰でも触れられる体験として届けます。
+          </p>
+          <div class="about-stats" id="about-stats">
+            <!-- Stats populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon">▲</span>
+          <span>upB systems</span>
+        </div>
+        <p class="footer-copy">&copy; 2026 upB systems. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

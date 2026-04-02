@@ -1,0 +1,14 @@
+[
+  {
+    "id": "up-and-to-the-right",
+    "title": "Up and to the Right",
+    "subtitle": "AI Venture CEO Simulator",
+    "description": "完全自律型AIベンチャー企業のお飾りCEOとして、全てが右肩上がりに成長し続ける世界を体験せよ。",
+    "tags": ["シミュレーション", "放置ゲーム", "CEO", "AI"],
+    "url": "https://up-and-to-the-right.vercel.app",
+    "thumbnail": "/thumbnails/up-and-to-the-right.webp",
+    "color": "#3B82F6",
+    "releaseDate": "2026-03-31",
+    "status": "released"
+  }
+]
